@@ -9,6 +9,5 @@ object Es1 {
         }else{
             println(0);
         }
-        
     }
 }

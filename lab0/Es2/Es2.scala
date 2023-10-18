@@ -4,7 +4,7 @@ object Es2 {
             var message = args(0);
             var result : String = "";
             for(char <- message){
-                result = result + ((char - ('a' -1) + 13) % 26 + ('a' -1)).toChar;
+                result = result + ((char - ('a' - 1) + 13) % 26 + ('a' -1)).toChar;
             }
             println(result);
         }
